@@ -1,14 +1,12 @@
 body{
-    
-  background-color:rgb(58, 177, 185);
-   
-    color:aliceblue;
+    background-color:rgb(155, 144, 107);
+    color:rgb(255, 255, 255);
     margin: 50px;
 }
 
 h3{ font-family: monospace;
     font-size: larger;
-    color: rgb(136, 17, 248); ;
+    color: rgb(73, 224, 194); ;
     position:relative;
     left: 75px;
 } 
@@ -20,12 +18,21 @@ h3{ font-family: monospace;
 .progress-bar {
   width: 20%;
   height: 9px;
-  background-color: #e0e0e0;
+  background-color: #b9a1a1;
   border-radius: 10px;
 }
 
 .progress {
   height: 100%;
-  background-color:#f353f8;
+  background-color: #3498db;
   border-radius: 10px;
+}
+
+.container {
+    width: 700px;
+  height: 150px;
+    margin: 10 auto;
+    display: flex;
+  align-items: start;
+  justify-content: space-between;
 }
