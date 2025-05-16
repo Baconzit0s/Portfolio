@@ -1,12 +1,12 @@
 body{
-    background-color:rgb(155, 144, 107);
+    background-color:rgb(54, 99, 245);
     color:rgb(255, 255, 255);
     margin: 50px;
 }
 
 h3{ font-family: monospace;
     font-size: larger;
-    color: rgb(73, 224, 194); ;
+    color: rgb(224, 73, 98); ;
     position:relative;
     left: 75px;
 } 
@@ -35,4 +35,10 @@ h3{ font-family: monospace;
     display: flex;
   align-items: start;
   justify-content: space-between;
+}
+
+.depoimento {
+  display: flex;
+  margin: 30px;
+  gap: 10px;
 }
